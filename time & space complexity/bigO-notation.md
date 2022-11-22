@@ -1,6 +1,6 @@
 # :books: Summary
 
-1. [What is Big O Notation](#timer_clock-big-o-notation)
+1. [What is Big O Notation](#timer_clock-what-is-big-o-notation)
     - [O(n) function](#on-function)
     - [About scaling time](#warning-about-scaling-time)
     - [Constants](#constants)
