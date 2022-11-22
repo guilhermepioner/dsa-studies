@@ -1,22 +1,17 @@
 # :books: Summary
 
-1. [The Basics](#the-basics)
-0. [Big O Notation](#timer_clock-big-o-notation)
+1. [What is Big O Notation](#timer_clock-big-o-notation)
     - [O(n) function](#on-function)
     - [About scaling time](#warning-about-scaling-time)
     - [Constants](#constants)
     - [Growth Hierarchy](#growth-hierarchy)
-0.
 0. [References](#references)
 
+# :timer_clock: What is Big O Notation?
 
-# The Basics
+Big O notation is a mathematical model that help us identify, classify and analyze algorithms by their efficiency and how they scales as its input approaches infinity
 
-# :timer_clock: Big O Notation
-
-Big O notation is used to analyze the effiency of an algorithm as its input approaches infinity
-
-As the size of the input to the algorithm grows, how drastically do the space or time requirements grow with it
+It indicates as the size of the input of the algorithm grows, how drastically do the space or time requirements grow with it
 
 Big O notation is often represented by the letter O followed by paranthesis: _O()_
 
@@ -27,15 +22,13 @@ It can also be represented by the Greek letter Omega instead of O: _Ω()_
 ```js
 function linearFunc(arr) {
     for (let i=0; i<arr.length; i++) {
-        console.log(1000 * 100000)
+        console.log(1000 * 100000)  // It will always takes the same amount of time to execute => It's a constant time
     }
 }
 
 const arr = [1,2,3,4,5,6,7]
 linearFunc(arr)
 ```
-
-as `console.log(1000 * 100000)` will always takes the same amount of time, we conclude that it's a _constant time_.
 
 ## :warning: About scaling time
 
