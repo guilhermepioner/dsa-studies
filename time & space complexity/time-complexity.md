@@ -1,9 +1,9 @@
-# Summary
+# :books: Summary
 
 1. [The Basics](#the-basics)
-0. [Big O Notation](#big-o-notation)
+0. [Big O Notation](#timer_clock-big-o-notation)
     - [O(n) function](#on-function)
-    - [About scaling time](#warning-about-constant-time)
+    - [About scaling time](#warning-about-scaling-time)
     - [Constants](#constants)
     - [Growth Hierarchy](#growth-hierarchy)
 0.
@@ -12,7 +12,7 @@
 
 # The Basics
 
-# Big O Notation
+# :timer_clock: Big O Notation
 
 Big O notation is used to analyze the effiency of an algorithm as its input approaches infinity
 
@@ -68,7 +68,7 @@ The function above is known as _O(1)_ because the only operation within the func
 
 In Big O, we a wave a growth hierarchy, which looks something like this:
 
-**Orders of Growth:**
+**📈 Orders of Growth:**
 
 | Notation | Name  | Perfomance |
 |-------|-------|-------|
