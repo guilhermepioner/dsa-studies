@@ -83,8 +83,8 @@ public class QuickFindUF
 
   public void union(int p, int q)
   {
-    // Save values of the objects before chaning, possibly the whole array
-    // Actually the maximum number of changes that can ocurr to the array id[] is N-1 
+    // Save values of the objects before changing, possibly, the whole array
+    // Actually the maximum number of changes that can occur to the array id[] is N-1 
     int pid = id[p];
     int qid = id[q];
 
@@ -102,7 +102,7 @@ The cost model here is basically how many times we need to access the array (for
 |----|-----|----|----|
 | quick-find | N | N | 1 |
 
-**order of growth of number of array accesses**
+> order of growth of number of array accesses
 
 ### Quick Find defect
 
